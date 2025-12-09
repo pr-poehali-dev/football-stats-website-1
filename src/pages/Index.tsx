@@ -9,6 +9,7 @@ import PlayersSection from '@/components/PlayersSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import CodeDisplay from '@/components/CodeDisplay';
+import CodeListSection from '@/components/CodeListSection';
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -88,6 +89,7 @@ const Index = () => {
       </main>
 
       <CodeDisplay />
+      <CodeListSection />
       <Footer />
     </div>
   );
